@@ -5,8 +5,8 @@ import React, {useState} from 'react'
 function App() {
 
   const [weight, setWeight] = useState(0)
-  const [bottles, setBottles] = useState(0)
-  const [time, setTime] = useState(0)
+  const [bottles, setBottles] = useState(1)
+  const [time, setTime] = useState(1)
   const [gender, setGender] = useState("male")
   const [result, setResult] = useState(0)
 
